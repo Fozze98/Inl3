@@ -1,0 +1,54 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1713934362",
+        "python_version": "3.7.7 (tags/v3.7.7:d7c567b08f, Mar 10 2020, 10:41:24) [MSC v.1900 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\simon\\OneDrive\\Dokument\\GitHub\\ML Agents Jumpking\\venv\\Scripts\\mlagents-learn --run-id newMapT1 --resume",
+        "mlagents_version": "0.29.0",
+        "mlagents_envs_version": "0.29.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.13.1+cpu",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1713934370"
+    },
+    "total": 7.659725699999999,
+    "count": 1,
+    "self": 0.006586599999999443,
+    "children": {
+        "run_training.setup": {
+            "total": 0.10993619999999993,
+            "count": 1,
+            "self": 0.10993619999999993
+        },
+        "TrainerController.start_learning": {
+            "total": 7.5432029,
+            "count": 1,
+            "self": 0.00012309999999970955,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 7.465225599999999,
+                    "count": 1,
+                    "self": 7.465225599999999
+                },
+                "trainer_threads": {
+                    "total": 1.900000000887303e-06,
+                    "count": 1,
+                    "self": 1.900000000887303e-06
+                },
+                "TrainerController._save_models": {
+                    "total": 0.07785229999999999,
+                    "count": 1,
+                    "self": 0.00027110000000085677,
+                    "children": {
+                        "RLTrainer._checkpoint": {
+                            "total": 0.07758119999999913,
+                            "count": 1,
+                            "self": 0.07758119999999913
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
